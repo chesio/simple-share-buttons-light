@@ -2,8 +2,8 @@
 Contributors: DavidoffNeal
 Tags: share buttons, fast share buttons, facebook, twitter, google+, share, share links, stumble upon, linkedin, pinterest
 Requires at least: 3.9
-Tested up to: 4.3
-Stable tag: 0.0.1
+Tested up to: 4.3.1
+Stable tag: 0.0.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ We'll add some when they're asked :)
 * Have blazingly-fast share buttons on your website!
 
 == Changelog ==
+
+= 0.0.2 =
+* Update: New Google+ branded buttons
 
 = 0.0.1 =
 * Initial release
