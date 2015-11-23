@@ -2,7 +2,7 @@
 Contributors: DavidoffNeal
 Tags: share buttons, fast share buttons, facebook, twitter, google+, share, share links, stumble upon, linkedin, pinterest
 Requires at least: 3.9
-Tested up to: 4.3.1
+Tested up to: 4.4
 Stable tag: 0.0.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
