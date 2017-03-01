@@ -39,6 +39,9 @@ We'll add some when they're asked :)
 
 == Changelog ==
 
+= #.#.# (####-##-##) =
+* Fix: no buttons were shown under certain conditions (https://wordpress.org/support/topic/ssbl-no-button-images-showing/)
+
 = 1.0.0.alpha (2017-03-01) =
 * Fork of legacy plugin created at https://github.com/chesio/simple-share-buttons-light
 * No code changes: this version is functionally equivalent to version 0.0.2

@@ -137,7 +137,7 @@ defined('ABSPATH') or die('No direct access permitted');
         	$this->url = $url;
 
         	// include the images needed ready
-            $this->images = include_once SSBL_ROOT.'/buttons/'.$settings['image_set'].'.php';
+            $this->images = include SSBL_ROOT.'/buttons/'.$settings['image_set'].'.php';
     	}
 
     	// get all buttons
