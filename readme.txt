@@ -2,8 +2,8 @@
 Contributors: DavidoffNeal, chesio
 Tags: share buttons, fast share buttons, facebook, twitter, google+, share, share links, stumble upon, linkedin, pinterest
 Requires at least: 3.9
-Tested up to: 4.4
-Stable tag: 1.0.0.alpha
+Tested up to: 4.7.2
+Stable tag: 1.0.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,9 +39,10 @@ We'll add some when they're asked :)
 
 == Changelog ==
 
-= #.#.# (####-##-##) =
+= 1.0.0 (2017-03-01) =
 * Fix: no buttons were shown under certain conditions (https://wordpress.org/support/topic/ssbl-no-button-images-showing/)
 * Fix: correctly encode title for use in subject argument of "mailto:" links
+* Tested up to WordPress 4.7.2
 
 = 1.0.0.alpha (2017-03-01) =
 * Fork of legacy plugin created at https://github.com/chesio/simple-share-buttons-light
