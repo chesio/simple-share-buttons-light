@@ -39,6 +39,9 @@ We'll add some when they're asked :)
 
 == Changelog ==
 
+= #.#.# (####-##-##) =
+* New: filter ssbl_show_buttons that can be used to override decision if buttons should be shown or not
+
 = 1.0.0 (2017-03-01) =
 * Fix: no buttons were shown under certain conditions (https://wordpress.org/support/topic/ssbl-no-button-images-showing/)
 * Fix: correctly encode title for use in subject argument of "mailto:" links

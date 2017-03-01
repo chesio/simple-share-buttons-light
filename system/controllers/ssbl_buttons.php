@@ -14,7 +14,7 @@ defined('ABSPATH') or die('No direct access permitted');
         $buttons = '';
 
         // placement on pages/posts/categories/archives/homepage
-        if ((! is_home() && ! is_front_page() && is_page() && $ssbl_settings['pages'] == 'Y') || (is_single() && $ssbl_settings['posts'] == 'Y') || $booShortCode == true) {
+        if (apply_filters('ssbl_show_buttons', ((! is_home() && ! is_front_page() && is_page() && $ssbl_settings['pages'] == 'Y') || (is_single() && $ssbl_settings['posts'] == 'Y') || $booShortCode == true), $ssbl_settings, $booShortCode)) {
             // ssbl comment
             $buttons.= '<!-- Simple Share Buttons Light (v'.SSBL_VERSION.') -->';
 
