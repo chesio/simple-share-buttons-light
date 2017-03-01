@@ -1,9 +1,9 @@
 === Simple Share Buttons Light ===
-Contributors: DavidoffNeal
+Contributors: DavidoffNeal, chesio
 Tags: share buttons, fast share buttons, facebook, twitter, google+, share, share links, stumble upon, linkedin, pinterest
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 0.0.2
+Stable tag: 1.0.0.alpha
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,10 @@ We'll add some when they're asked :)
 * Have blazingly-fast share buttons on your website!
 
 == Changelog ==
+
+= 1.0.0.alpha (2017-03-01) =
+* Fork of legacy plugin created at https://github.com/chesio/simple-share-buttons-light
+* No code changes: this version is functionally equivalent to version 0.0.2
 
 = 0.0.2 =
 * Update: New Google+ branded buttons
