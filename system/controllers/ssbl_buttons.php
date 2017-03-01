@@ -26,23 +26,8 @@ defined('ABSPATH') or die('No direct access permitted');
             }
             // using shortcode
             else {
-                // if we're not viewing a post
-                if (! is_single()) {
-                    // if a title has been provided
-					if (isset($atts['title']) && $atts['title'] != '') {
-						// use the set title
-						$strPageTitle = $atts['title'];
-					} else {
-						// get the page title
-						$strPageTitle = wp_title('', false);
-					}
-                }
-                // viewing a single post
-                else {
-                    // set page title as set by user or get if needed
-                    $strPageTitle = (isset($atts['title']) ? $atts['title'] : get_the_title());
-                }
-
+                // set page title as set by user or get if needed
+                $strPageTitle = (isset($atts['title']) ? $atts['title'] : wp_get_document_title());
                 // set the url as set by user or get if needed
                 $urlCurrentPage = (isset($atts['url']) ? $atts['url'] : ssbl_current_url());
             }

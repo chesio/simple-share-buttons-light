@@ -1,7 +1,7 @@
 === Simple Share Buttons Light ===
 Contributors: DavidoffNeal, chesio
 Tags: share buttons, fast share buttons, facebook, twitter, google+, share, share links, stumble upon, linkedin, pinterest
-Requires at least: 3.9
+Requires at least: 4.4
 Tested up to: 4.7.2
 Stable tag: 1.0.0
 License: GPLv2
@@ -41,6 +41,8 @@ We'll add some when they're asked :)
 
 = #.#.# (####-##-##) =
 * New: filter ssbl_show_buttons that can be used to override decision if buttons should be shown or not
+* Change: use wp_get_document_title() as fallback when no explicit title is provided via shortcode
+* Required WordPress version is now 4.4
 
 = 1.0.0 (2017-03-01) =
 * Fix: no buttons were shown under certain conditions (https://wordpress.org/support/topic/ssbl-no-button-images-showing/)
