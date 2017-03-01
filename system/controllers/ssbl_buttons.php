@@ -178,7 +178,7 @@ defined('ABSPATH') or die('No direct access permitted');
         // get twitter button
         function ssbl_twitter() {
 
-            // format the URL into friendly code
+            // encode the title for use in URL
             $twitter_text = urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8'));
 
             // twitter share link
@@ -294,8 +294,9 @@ defined('ABSPATH') or die('No direct access permitted');
         // get email button
         function ssbl_email() {
 
-            // replace ampersands as needed for email link
-            $emailTitle = str_replace('&', '%26', $this->title);
+            // encode the title for use in URL
+            // see: http://stackoverflow.com/questions/8940445/what-is-the-correct-way-to-escape-a-string-for-a-mailto-link
+            $emailTitle = rawurlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8'));
 
             // email share link
             $return = '<a class="ssbl_email_share" href="mailto:?subject='.$emailTitle.'&amp;body='.$this->url.'">';
