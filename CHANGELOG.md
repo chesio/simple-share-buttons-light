@@ -3,6 +3,7 @@ __1.1.0 (2018-02-14)__
 * Change: use [`wp_get_document_title()`](https://developer.wordpress.org/reference/functions/wp_get_document_title/) as fallback when no explicit title is provided via shortcode
 * Required WordPress version is now 4.4
 * Tested up to WordPress 4.9
+* Plugin can be updated with [Github Updater](https://github.com/afragen/github-updater) plugin
 
 __1.0.0 (2017-03-01)__
 * Fix: no buttons were shown under certain conditions (https://wordpress.org/support/topic/ssbl-no-button-images-showing/)
