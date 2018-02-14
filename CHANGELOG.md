@@ -1,7 +1,8 @@
-__?.?.? (????-??-??)__
-* New: filter ssbl_show_buttons that can be used to override decision if buttons should be shown or not
-* Change: use wp_get_document_title() as fallback when no explicit title is provided via shortcode
+__1.1.0 (2018-02-14)__
+* New: filter `ssbl_show_buttons` that can be used to override decision if buttons should be shown or not
+* Change: use [`wp_get_document_title()`](https://developer.wordpress.org/reference/functions/wp_get_document_title/) as fallback when no explicit title is provided via shortcode
 * Required WordPress version is now 4.4
+* Tested up to WordPress 4.9
 
 __1.0.0 (2017-03-01)__
 * Fix: no buttons were shown under certain conditions (https://wordpress.org/support/topic/ssbl-no-button-images-showing/)
