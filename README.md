@@ -2,12 +2,13 @@
 
 _One of the fastest WordPress share button plugins available._
 
-This is a fork of legacy [Simple Share Buttons Light](https://github.com/wp-plugins/simple-share-buttons-light) plugin by [Simple Share Buttons](https://simplesharebuttons.com/) that is not available anymore in WordPress Plugin Directory.
+This is a fork of [Simple Share Buttons Light](https://wordpress.org/plugins/simple-share-buttons-light/) plugin by [Simple Share Buttons](https://simplesharebuttons.com/) that is not available anymore in WordPress Plugin Directory.
 
 ## Requirements
+
 * [WordPress](https://wordpress.org/) 4.4 or newer
 
-## Description (copied from legacy readme.txt)
+## Description
 
 You have just stumbled across one of the fastest WordPress share button plugins available - when speed is a priority, you needn’t think twice, Simple Share Buttons Light is blazingly fast.
 
