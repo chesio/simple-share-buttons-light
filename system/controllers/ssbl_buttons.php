@@ -148,7 +148,7 @@ defined('ABSPATH') or die('No direct access permitted');
         function ssbl_facebook() {
 
             // facebook share link
-            $return = '<a target="_blank" class="ssbl_facebook_share" href="http://www.facebook.com/sharer.php?u='.$this->url.'">';
+            $return = '<a target="_blank" class="ssbl_facebook_share" href="https://www.facebook.com/sharer.php?u='.$this->url.'">';
 
                 // show selected ssbl image
                 $return .= '<img src="'.$this->images['facebook'].'" title="Facebook" class="ssbl ssbl-img" alt="Share on Facebook" />';
@@ -167,7 +167,7 @@ defined('ABSPATH') or die('No direct access permitted');
             $twitter_text = urlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8'));
 
             // twitter share link
-            $return = '<a target="_blank" class="ssbl_twitter_share" href="http://twitter.com/share?url='.$this->url.'&amp;text='.$twitter_text.'">';
+            $return = '<a target="_blank" class="ssbl_twitter_share" href="https://twitter.com/share?url='.$this->url.'&amp;text='.$twitter_text.'">';
 
                 // show ssbl image
                 $return .= '<img src="'.$this->images['twitter'].'" title="Twitter" class="ssbl ssbl-img" alt="Tweet about this on Twitter" />';
@@ -215,7 +215,7 @@ defined('ABSPATH') or die('No direct access permitted');
         function ssbl_reddit() {
 
             // reddit share link
-            $return = '<a target="_blank" class="ssbl_reddit_share" href="http://reddit.com/submit?url='.$this->url.'&amp;title='.$this->title.'">';
+            $return = '<a target="_blank" class="ssbl_reddit_share" href="https://reddit.com/submit?url='.$this->url.'&amp;title='.$this->title.'">';
 
                 // show ssbl image
                 $return .= '<img src="'.$this->images['reddit'].'" title="Reddit" class="ssbl ssbl-img" alt="Share on Reddit" />';
@@ -231,7 +231,7 @@ defined('ABSPATH') or die('No direct access permitted');
         function ssbl_linkedin() {
 
             // linkedin share link
-            $return = '<a target="_blank" class="ssbl_linkedin_share ssbl_share_link" href="http://www.linkedin.com/shareArticle?mini=true&amp;url='.$this->url.'">';
+            $return = '<a target="_blank" class="ssbl_linkedin_share ssbl_share_link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url='.$this->url.'">';
 
                 // show ssbl image
                 $return .= '<img src="'.$this->images['linkedin'].'" title="LinkedIn" class="ssbl ssbl-img" alt="Share on LinkedIn" />';
@@ -280,7 +280,7 @@ defined('ABSPATH') or die('No direct access permitted');
         function ssbl_email() {
 
             // encode the title for use in URL
-            // see: http://stackoverflow.com/questions/8940445/what-is-the-correct-way-to-escape-a-string-for-a-mailto-link
+            // see: https://stackoverflow.com/questions/8940445/what-is-the-correct-way-to-escape-a-string-for-a-mailto-link
             $emailTitle = rawurlencode(html_entity_decode($this->title, ENT_COMPAT, 'UTF-8'));
 
             // email share link
@@ -327,7 +327,7 @@ defined('ABSPATH') or die('No direct access permitted');
                 }
 
             // tumblr share link
-            $return = '<a target="_blank" class="ssbl_tumblr_share" href="http://www.tumblr.com/share/link?url='.$url.'&amp;name='.$this->title.'">';
+            $return = '<a target="_blank" class="ssbl_tumblr_share" href="https://www.tumblr.com/share/link?url='.$url.'&amp;name='.$this->title.'">';
 
                 // show ssbl image
                 $return .= '<img src="'.$this->images['tumblr'].'" title="tumblr" class="ssbl ssbl-img" alt="Share on Tumblr" />';

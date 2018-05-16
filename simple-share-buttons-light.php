@@ -3,7 +3,7 @@
 Plugin Name: Simple Share Buttons Light
 Plugin URI: https://github.com/chesio/simple-share-buttons-light
 Description: One of the fastest WordPress share button plugins available.
-Version: 1.1.0
+Version: 1.1.1
 Author: Simple Share Buttons
 Author URI: https://simplesharebuttons.com
 License: GPLv2
@@ -32,7 +32,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
     // set constants
     define('SSBL_FILE', __FILE__);
     define('SSBL_ROOT', dirname(__FILE__));
-    define('SSBL_VERSION', '1.1.0');
+    define('SSBL_VERSION', '1.1.1');
 
 //======================================================================
 // 		 SSBL SETTINGS
@@ -128,9 +128,9 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
     // add ssbl css
     function hook_css()
     {
-    	$output="<style>.ssbl-wrap .ssbl-container .ssbl-img{width:50px;height:50px;padding:5px;border:0;box-shadow:0;display:inline}.ssbl-wrap .ssbl-container a{border:0}</style>";
+        $output="<style>.ssbl-wrap .ssbl-container .ssbl-img{width:50px;height:50px;padding:5px;border:0;box-shadow:none;display:inline}.ssbl-wrap .ssbl-container a{border:0}</style>";
 
-    	echo $output;
+        echo $output;
 
     }
 

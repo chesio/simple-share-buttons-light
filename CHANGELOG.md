@@ -1,3 +1,7 @@
+__1.1.1 (2018-05-16)__
+* Fix: Facebook, Twitter, LinkedIn, Reddit and Tumblr share links use HTTPS
+* Fix: box-shadow property in front-end CSS
+
 __1.1.0 (2018-02-14)__
 * New: filter `ssbl_show_buttons` that can be used to override decision if buttons should be shown or not
 * Change: use [`wp_get_document_title()`](https://developer.wordpress.org/reference/functions/wp_get_document_title/) as fallback when no explicit title is provided via shortcode
