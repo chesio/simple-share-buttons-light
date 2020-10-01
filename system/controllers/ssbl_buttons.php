@@ -179,22 +179,6 @@ defined('ABSPATH') or die('No direct access permitted');
             return $return;
         }
 
-        // get google+ button
-        function ssbl_google() {
-
-            // google share link
-            $return = '<a target="_blank" class="ssbl_google_share" href="https://plus.google.com/share?url='.$this->url.'">';
-
-                // show ssbl image
-                $return .= '<img src="'.$this->images['google'].'" title="Google+" class="ssbl ssbl-img" alt="Share on Google+" />';
-
-            // close href
-            $return .= '</a>';
-
-            // return share buttons
-            return $return;
-        }
-
         // get diggit button
         function ssbl_diggit() {
 
@@ -388,4 +372,3 @@ defined('ABSPATH') or die('No direct access permitted');
         }
 
     }
-

@@ -16,7 +16,7 @@ defined('ABSPATH') or die('No direct access permitted');
             'posts'             => '',
             'image_set'         => 'circle',
             'share_text'        => '',
-            'selected_buttons'  => 'facebook,google,twitter,linkedin',
+            'selected_buttons'  => 'facebook,twitter,linkedin',
         );
 
         // json encode
@@ -57,25 +57,13 @@ defined('ABSPATH') or die('No direct access permitted');
             return;
         }
 
-// planning ahead
-/*
-        // lower than 0.0.2
-        if ($ssblVersion < '0.0.2') {
-            // added in 0.0.2
-            $new = array(
-                '' => '',
-            );
+        if (version_compare($ssblVersion, '1.2.0', '<')) {
+            // Resave available buttons as they have changed in 1.2.0.
+            ssbl_button_helper_array();
         }
-
-        // save the new options
-        ssbl_update_options($new);
-
-        // button helper array
-        ssbl_button_helper_array();
 
         // set new version number
         update_option('ssbl_version', SSBL_VERSION);
-*/
     }
 
     // button helper option
@@ -94,9 +82,6 @@ defined('ABSPATH') or die('No direct access permitted');
             ),
             'facebook' => array(
                 'full_name'    => 'Facebook',
-            ),
-            'google' => array(
-                'full_name'    => 'Google+',
             ),
             'linkedin' => array(
                 'full_name'    => 'LinkedIn',

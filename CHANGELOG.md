@@ -1,3 +1,8 @@
+__1.2.0 (2020-10-01)__
+* Fix: Remove Google Plus button due to [service shutdown](https://www.blog.google/technology/safety-security/project-strobe/)
+* Remove links to and mentions of Simple Share Buttons Plus plugin from admin interface
+* Tested with WordPress 5.5
+
 __1.1.1 (2018-05-16)__
 * Fix: Facebook, Twitter, LinkedIn, Reddit and Tumblr share links use HTTPS
 * Fix: box-shadow property in front-end CSS

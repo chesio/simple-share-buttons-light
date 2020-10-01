@@ -59,8 +59,6 @@
 			</li><li>
 				<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple+Share+Buttons+%7C+The+simple+way+to+add+Share+Buttons+to+your+website+&amp;hashtags=" class="ssbl-btn ssbl-twitter" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Twitter"><span class="ssbl-text">Twitter</span></a><span class="ssbl-total-twitter-shares ssbl-each-share">99</span>
 			</li><li>
-				<a href="https://plus.google.com/share?url=https://simplesharebuttons.com" class="ssbl-btn ssbl-google" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Google+"><span class="ssbl-text">Google+</span></a><span class="ssbl-total-google-shares ssbl-each-share">218</span>
-			</li><li>
 				<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" class="ssbl-btn ssbl-linkedin" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="LinkedIn"><span class="ssbl-text">Linkedin</span></a><span class="ssbl-total-linkedin-shares ssbl-each-share">741</span>
 			</li>
 		</ul>
@@ -81,8 +79,6 @@
 			</li><li>
 				<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple+Share+Buttons+%7C+The+simple+way+to+add+Share+Buttons+to+your+website+&amp;hashtags=" class="ssbl-btn ssbl-twitter" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Twitter"><span class="ssbl-text">Twitter</span></a><span class="ssbl-total-twitter-shares ssbl-each-share">99</span>
 			</li><li>
-				<a href="https://plus.google.com/share?url=https://simplesharebuttons.com" class="ssbl-btn ssbl-google" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Google+"><span class="ssbl-text">Google+</span></a><span class="ssbl-total-google-shares ssbl-each-share">218</span>
-			</li><li>
 				<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" class="ssbl-btn ssbl-linkedin" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="LinkedIn"><span class="ssbl-text">Linkedin</span></a><span class="ssbl-total-linkedin-shares ssbl-each-share">741</span>
 			</li>
 		</ul>
@@ -102,8 +98,6 @@
 				<a href="https://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" class="ssbl-btn ssbl-facebook" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Facebook"><span class="ssbl-text">Facebook</span></a><span class="ssbl-total-facebook-shares ssbl-each-share">1.5k</span>
 			</li><li>
 				<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple+Share+Buttons+%7C+The+simple+way+to+add+Share+Buttons+to+your+website+&amp;hashtags=" class="ssbl-btn ssbl-twitter" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Twitter"><span class="ssbl-text">Twitter</span></a><span class="ssbl-total-twitter-shares ssbl-each-share">99</span>
-			</li><li>
-				<a href="https://plus.google.com/share?url=https://simplesharebuttons.com" class="ssbl-btn ssbl-google" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Google+"><span class="ssbl-text">Google+</span></a><span class="ssbl-total-google-shares ssbl-each-share">218</span>
 			</li><li>
 				<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" class="ssbl-btn ssbl-linkedin" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="LinkedIn"><span class="ssbl-text">Linkedin</span></a><span class="ssbl-total-linkedin-shares ssbl-each-share">741</span>
 			</li>
@@ -126,8 +120,6 @@
 			</li><li>
 				<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple+Share+Buttons+%7C+The+simple+way+to+add+Share+Buttons+to+your+website+&amp;hashtags=" class="ssbl-btn ssbl-twitter" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Twitter"><span class="ssbl-text">Twitter</span></a><span class="ssbl-total-twitter-shares ssbl-each-share">99</span>
 			</li><li>
-				<a href="https://plus.google.com/share?url=https://simplesharebuttons.com" class="ssbl-btn ssbl-google" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Google+"><span class="ssbl-text">Google+</span></a><span class="ssbl-total-google-shares ssbl-each-share">218</span>
-			</li><li>
 				<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" class="ssbl-btn ssbl-linkedin" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="LinkedIn"><span class="ssbl-text">Linkedin</span></a><span class="ssbl-total-linkedin-shares ssbl-each-share">741</span>
 			</li>
 		</ul>
@@ -148,8 +140,6 @@
 				<a href="https://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" class="ssbl-btn ssbl-facebook" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Facebook"><span class="ssbl-text">Facebook</span></a><span class="ssbl-total-facebook-shares ssbl-each-share">1.5k</span>
 			</li><li>
 				<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple+Share+Buttons+%7C+The+simple+way+to+add+Share+Buttons+to+your+website+&amp;hashtags=" class="ssbl-btn ssbl-twitter" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Twitter"><span class="ssbl-text">Twitter</span></a><span class="ssbl-total-twitter-shares ssbl-each-share">99</span>
-			</li><li>
-				<a href="https://plus.google.com/share?url=https://simplesharebuttons.com" class="ssbl-btn ssbl-google" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Google+"><span class="ssbl-text">Google+</span></a><span class="ssbl-total-google-shares ssbl-each-share">218</span>
 			</li><li>
 				<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" class="ssbl-btn ssbl-linkedin" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="LinkedIn"><span class="ssbl-text">Linkedin</span></a><span class="ssbl-total-linkedin-shares ssbl-each-share">741</span>
 			</li>
@@ -172,8 +162,6 @@
 			</li><li>
 				<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple+Share+Buttons+%7C+The+simple+way+to+add+Share+Buttons+to+your+website+&amp;hashtags=" class="ssbl-btn ssbl-twitter" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Twitter"><span class="ssbl-text">Twitter</span></a><span class="ssbl-total-twitter-shares ssbl-each-share">99</span>
 			</li><li>
-				<a href="https://plus.google.com/share?url=https://simplesharebuttons.com" class="ssbl-btn ssbl-google" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Google+"><span class="ssbl-text">Google+</span></a><span class="ssbl-total-google-shares ssbl-each-share">218</span>
-			</li><li>
 				<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" class="ssbl-btn ssbl-linkedin" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="LinkedIn"><span class="ssbl-text">Linkedin</span></a><span class="ssbl-total-linkedin-shares ssbl-each-share">741</span>
 			</li>
 		</ul>
@@ -194,8 +182,6 @@
 				<a href="https://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" class="ssbl-btn ssbl-facebook" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Facebook"><span class="ssbl-text">Facebook</span></a><span class="ssbl-total-facebook-shares ssbl-each-share">1.5k</span>
 			</li><li>
 				<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple+Share+Buttons+%7C+The+simple+way+to+add+Share+Buttons+to+your+website+&amp;hashtags=" class="ssbl-btn ssbl-twitter" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Twitter"><span class="ssbl-text">Twitter</span></a><span class="ssbl-total-twitter-shares ssbl-each-share">99</span>
-			</li><li>
-				<a href="https://plus.google.com/share?url=https://simplesharebuttons.com" class="ssbl-btn ssbl-google" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="Google+"><span class="ssbl-text">Google+</span></a><span class="ssbl-total-google-shares ssbl-each-share">218</span>
 			</li><li>
 				<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://simplesharebuttons.com" class="ssbl-btn ssbl-linkedin" data-ssbl-title="Simple Share Buttons | The simple way to add Share Buttons to your website" data-ssbl-url="https://simplesharebuttons.com" data-ssbl-site="LinkedIn"><span class="ssbl-text">Linkedin</span></a><span class="ssbl-total-linkedin-shares ssbl-each-share">741</span>
 			</li><li>
@@ -229,7 +215,6 @@
 	<span class="ssbl-btn ssbl-flattr"></span>
 	<span class="ssbl-btn ssbl-tumblr"></span>
 	<span class="ssbl-btn ssbl-linkedin"></span>
-	<span class="ssbl-btn ssbl-google"></span>
 	<span class="ssbl-btn ssbl-xing"></span>
 	<span class="ssbl-btn ssbl-facebook"></span>
 	<span class="ssbl-btn ssbl-vk"></span>
@@ -242,7 +227,7 @@
 <br>
 <br>
 <br>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 	$.fn.removeClassPrefix = function(prefix) {
 		this.each(function(i, el) {

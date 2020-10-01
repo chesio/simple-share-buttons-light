@@ -20,38 +20,11 @@ function ssbl_admin_header()
 
 					    <div class="collapse navbar-collapse" id="ssbl-navbar-collapse">
 					      <ul class="nav navbar-nav navbar-right">
-					        <li><a data-toggle="modal" data-target="#ssblSupportModal" href="#">Support</a></li>
-					        <li><a class="btn btn-primary ssbl-navlink-blue" href="https://simplesharebuttons.com/plus/?utm_source=light&utm_medium=plugin_ad&utm_campaign=product&utm_content=navlink" target="_blank">Plus <i class="fa fa-plus"></i></a></li>
-					      </ul>
-					    </div>
+					        <li><a href="https://wordpress.org/support/plugin/simple-share-buttons-light" target="_blank">Support</a></li>
+						  </ul>
+						</div>
 					  </div>
 					</nav>';
-
-		$htmlHeader.= '<div class="modal fade" id="ssblSupportModal" tabindex="-1" role="dialog" aria-hidden="true">
-						  <div class="modal-dialog">
-						    <div class="modal-content">
-						      <div class="modal-header">
-						        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-						        <h4 class="modal-title">Simple Share Buttons Support</h4>
-						      </div>
-						      <div class="modal-body">
-						        <p>Please note that the this plugin relies mostly on WordPress community support from other  users.</p>
-						        <p>If you wish to receive official support, please consider purchasing <a href="https://simplesharebuttons.com/plus/?utm_source=light&utm_medium=plugin_ad&utm_campaign=product&utm_content=support_modal" target="_blank"><b>Simple Share Buttons Plus</b></a></p>
-						        <div class="row">
-    						        <div class="col-sm-6">
-    						            <a href="https://wordpress.org/support/plugin/simple-share-buttons-light" target="_blank"><button class="btn btn-block btn-default">Community support</button></a>
-                                    </div>
-                                    <div class="col-sm-6">
-    						            <a href="https://simplesharebuttons.com/plus/?utm_source=light&utm_medium=plugin_ad&utm_campaign=product&utm_content=support_modal" target="_blank"><button class="btn btn-block btn-primary">Check out Plus</button></a>
-    						        </div>
-                                </div>
-						      </div>
-						      <div class="modal-footer">
-						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						      </div>
-						    </div>
-						  </div>
-						</div>';
 
 		// open container - closed in footer
 		$htmlHeader .= '<div class="container">';
@@ -70,27 +43,6 @@ function ssbl_admin_footer()
 
 			// link to show footer content
 			$htmlFooter .= '<a href="https://simplesharebuttons.com" target="_blank">Simple Share Buttons Light</a> <span class="badge">'.SSBL_VERSION.'</span>';
-
-			// show more/less links
-			$htmlFooter .= '<button type="button" class="ssbl-btn-thank-you pull-right btn btn-primary" data-toggle="modal" data-target="#ssblFooterModal"><i class="fa fa-info"></i></button>';
-
-			$htmlFooter.= '<div class="modal fade" id="ssblFooterModal" tabindex="-1" role="dialog" aria-labelledby="ssblFooterModalLabel" aria-hidden="true">
-						  <div class="modal-dialog">
-						    <div class="modal-content">
-						      <div class="modal-header">
-						        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-						        <h4 class="modal-title">Simple Share Buttons</h4>
-						      </div>
-						      <div class="modal-body">
-						        <p>Many thanks for choosing <a href="https://simplesharebuttons.com" target="_blank">Simple Share Buttons</a> for your share buttons plugin, we\'re confident you won\'t be disappointed in your decision. If you require any support, please visit the <a href="https://wordpress.org/support/plugin/simple-share-buttons-light" target="_blank">support forum</a>.</p>
-						        <p>If you like the plugin, we\'d really appreciate it if you took a moment to <a href="https://wordpress.org/support/view/plugin-reviews/simple-share-buttons-light" target="_blank">leave a review</a>, if there\'s anything missing to get 5 stars do please <a href="https://simplesharebuttons.com/contact/" target="_blank">let us know</a>. If you feel your website is worthy of appearing on our <a href="https://simplesharebuttons.com/showcase/" target="_blank">showcase page</a> do <a href="https://simplesharebuttons.com/contact/" target="_blank">get in touch</a>.</p>
-						      </div>
-						      <div class="modal-footer">
-						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						      </div>
-						    </div>
-						  </div>
-						</div>';
 
 		// close col
 		$htmlFooter .= '</div>';
@@ -144,9 +96,6 @@ function ssbl_admin_panel($arrSettings) {
 	// 		CORE
 	//======================================================================
 	$htmlShareButtonsForm .= '<div>';
-
-		// basic info
-		$htmlShareButtonsForm .= '<blockquote><p>The <b>simple</b> options you can see below are all you need to complete to get your <b>share buttons</b> to appear on your website. Simple Share Buttons Light is built for speed, if you are after more options, checkout the <a href="https://wordpress.org/plugins/simple-share-buttons-adder/" target="_blank">Adder</a> and <a href="https://simplesharebuttons.com/plus/?utm_source=light&utm_medium=plugin_ad&utm_campaign=product&utm_content=blockquote">Plus</a> versions.</p></blockquote>';
 
 		// COLUMN --------------------------------
 		$htmlShareButtonsForm .= '<div class="col-sm-12">';
@@ -221,25 +170,6 @@ function ssbl_admin_panel($arrSettings) {
 					$htmlShareButtonsForm .= '</div>';
 				$htmlShareButtonsForm .= '</div>';
 				$htmlShareButtonsForm .= '<input type="hidden" name="selected_buttons" id="selected_buttons" value="'.$arrSettings['selected_buttons'].'"/>';
-
-                // plus plug
-                $htmlShareButtonsForm .= '<div class="well text-center">';
-                    $htmlShareButtonsForm .= '<h2>Simple Share Buttons Plus</h2>';
-                    $htmlShareButtonsForm .= '<h5 class="margin-bottom">Get <strong>Xing</strong> and <strong>WhatsApp</strong> buttons...</h5>';
-                    $htmlShareButtonsForm .= '<div class="ssbp-wrap ssbp--centred ssbp--theme-4">
-                                                <div class="ssbp-container">
-                                                    <ul class="ssbp-list">
-                                                        <li class="ssbl-option-item ui-sortable-handle" id="whatsapp"><a href="javascript:;" class="ssbp-btn ssbp-whatsapp"></a></li>
-                                                        <li class="ssbl-option-item ui-sortable-handle" id="xing"><a href="javascript:;" class="ssbp-btn ssbp-xing"></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>';
-
-                    $htmlShareButtonsForm .= '<a href="https://simplesharebuttons.com/plus/?utm_source=light&utm_medium=plugin_ad&utm_campaign=product&utm_content=feature" target="_blank"><span class="btn btn-primary">Simple Share Buttons Plus</span></a>';
-                    $htmlShareButtonsForm .= '<div class="ssbl-spacer"></div>';
-                    $htmlShareButtonsForm .= '<p>Extra buttons are just the tip of the iceberg... <strong>Simple Share Buttons Plus</strong> comes with a great deal of extra features, from <strong>GeoIP click tracking</strong> to <strong>mobile-responsive</strong> share bars. <a href="https://simplesharebuttons.com/plus/?utm_source=light&utm_medium=plugin_ad&utm_campaign=product&utm_content=feature" target="_blank"><strong>Find out more here</strong></a></p>';
-                    $htmlShareButtonsForm .= '<div class="ssbl-spacer"></div>';
-                $htmlShareButtonsForm .= '</div>';
 
 			$htmlShareButtonsForm .= '</div>';
 

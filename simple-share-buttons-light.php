@@ -3,13 +3,13 @@
 Plugin Name: Simple Share Buttons Light
 Plugin URI: https://github.com/chesio/simple-share-buttons-light
 Description: One of the fastest WordPress share button plugins available.
-Version: 1.1.1
+Version: 1.2.0
 Author: Simple Share Buttons
 Author URI: https://simplesharebuttons.com
 License: GPLv2
 Requires PHP: 5.2
 Requires WP: 4.4
-Tested up to: 4.9
+Tested up to: 5.5
 Github Plugin URI: https://github.com/chesio/simple-share-buttons-light
 
 Copyright 2015 Simple Share Buttons admin@simplesharebuttons.com
@@ -32,7 +32,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
     // set constants
     define('SSBL_FILE', __FILE__);
     define('SSBL_ROOT', dirname(__FILE__));
-    define('SSBL_VERSION', '1.1.1');
+    define('SSBL_VERSION', '1.2.0');
 
 //======================================================================
 // 		 SSBL SETTINGS
